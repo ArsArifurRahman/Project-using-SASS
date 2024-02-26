@@ -1,0 +1,41 @@
+.header-area {
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.logo {
+		float: left;
+		width: 250px;
+
+		a {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 25px;
+		}
+	}
+
+	.menu {
+		float: right;
+		width: 950px;
+
+		ul {
+			text-align: right;
+
+			li {
+				display: inline-block;
+
+				a {
+					margin-left: 20px;
+					font-size: 20px;
+					font-weight: 500;
+					text-transform: capitalize;
+
+					&:hover {
+						color: $primaryColor;
+					}
+				}
+			}
+		}
+	}
+}
